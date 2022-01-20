@@ -1,0 +1,49 @@
+.fromsection{  
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 0%;
+    padding-top: 5%;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);   
+    display:flex;
+    flex-direction: column; 
+    /* list-style:none;
+    flex-wrap: wrap; */
+    font-size: large;
+    font-family: 'Mochiy Pop P One', sans-serif;       
+}
+input[text]
+{
+    width: 100px;
+}
+
+.flexrow{
+   
+    padding-left: 12%;
+    display:flex !important;
+    flex-direction: row !important; 
+    list-style:none !important;
+    justify-content: center;
+    background: linear-gradient(110deg, #fdcd3b 49%, #ffed4b 30%);   
+    font-size: large;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.submit{
+    
+    display:flex !important;
+    flex-direction: row !important; 
+    justify-content: center;
+    background: linear-gradient(110deg, #fdcd3b 40%, #ffed4b 60%);   
+    font-size: large;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+tabble,td,tr,th{
+    border: 2px solid black;
+}
+
+.tablesection{
+    padding-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}

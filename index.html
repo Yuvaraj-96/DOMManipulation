@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <link rel="stylesheet" href="/Webcontent/app.css">
+    <script src="/Webcontent/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="fromsection">
+        <div>
+            <h5 classs="mess"></h5>
+        </div>
+        <label>First name</label>
+        <input type="text"  id="fname" name="fname" placeholder="Yuva"></input>
+        <label>Last name</label>
+        <input type="text" id="lname" name="lname" placeholder="Raj"></input>
+        <label>gender</label>  
+        <select name="gender"  id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        <label>Address</label>
+        <input type="text"  id="address" name="address" placeholder="Address"></input><br>
+        <label>State</label>
+        <input type="text"  id="state" name="state" placeholder="State"></input>
+        <label>Country</label>
+        <input type="text"  id="country" name="country" placeholder="country"></input>
+        <label>Pincode</label>
+        <input type="text"  id="pincode" name="pincode" placeholder="658 745"></input><br>
+     </div>
+    <div class="flexrow"> 
+        <br>
+        <br>
+        <label >choice of Food: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+        <input  type="checkbox"  id="food" name="food" value="Masala dosa"></input>&nbsp;&nbsp;
+        <label >Masala dosa</label>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+        <input type="checkbox"  id="food" name="food" value="Vada pav"></input>&nbsp;&nbsp;
+        <label >Vada pav</label>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+        <input type="checkbox"  id="food" name="food" value="Pani puri"></input>&nbsp;&nbsp;
+        <label>Pani puri</label>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox"  id="food" name="food" value="Tandoori Chicken"></input>&nbsp;&nbsp;
+        <label>Tandoori Chicken</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" id="food" name="food" value="Chana Masala"></input><br>
+        <label>Chana Masala</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+    </div>
+    <div class="fromsection">
+        <br>
+    </div>  
+    <div class="submit">
+        <br>     
+       <input type="hidden"></input>
+        <input type="submit"value="Submit" onclick="dattacollect()"></input>
+    </div>   
+    
+    <div class="tablesection">
+    </div>
+    
+</body>
+</html>
